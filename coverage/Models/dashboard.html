@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/app/Models</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/var/www/html/app</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Models</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AbilityQuality.php.html#8">App\Models\AbilityQuality</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssignTeacher.php.html#8">App\Models\AssignTeacher</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Classes.php.html#8">App\Models\Classes</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Conduct.php.html#8">App\Models\Conduct</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Lesson.php.html#8">App\Models\Lesson</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LessonDocument.php.html#8">App\Models\LessonDocument</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LessonPlan.php.html#8">App\Models\LessonPlan</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Promotion.php.html#8">App\Models\Promotion</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reward.php.html#8">App\Models\Reward</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student.php.html#9">App\Models\Student</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StudentAttendances.php.html#8">App\Models\StudentAttendances</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StudentMarks.php.html#8">App\Models\StudentMarks</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Teacher.php.html#8">App\Models\Teacher</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TeacherComment.php.html#8">App\Models\TeacherComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User.php.html#12">App\Models\User</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AbilityQuality.php.html#21"><abbr title="App\Models\AbilityQuality::year">year</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssignTeacher.php.html#12"><abbr title="App\Models\AssignTeacher::class">class</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssignTeacher.php.html#16"><abbr title="App\Models\AssignTeacher::teacher">teacher</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssignTeacher.php.html#20"><abbr title="App\Models\AssignTeacher::year">year</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Classes.php.html#16"><abbr title="App\Models\Classes::classLessons">classLessons</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Conduct.php.html#11"><abbr title="App\Models\Conduct::student">student</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Conduct.php.html#15"><abbr title="App\Models\Conduct::classes">classes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Conduct.php.html#19"><abbr title="App\Models\Conduct::semester">semester</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Lesson.php.html#20"><abbr title="App\Models\Lesson::classes">classes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Lesson.php.html#25"><abbr title="App\Models\Lesson::teachers">teachers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Lesson.php.html#30"><abbr title="App\Models\Lesson::course">course</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Lesson.php.html#34"><abbr title="App\Models\Lesson::room">room</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Lesson.php.html#38"><abbr title="App\Models\Lesson::day">day</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Lesson.php.html#42"><abbr title="App\Models\Lesson::time">time</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Lesson.php.html#46"><abbr title="App\Models\Lesson::semester">semester</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LessonDocument.php.html#11"><abbr title="App\Models\LessonDocument::lesson">lesson</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LessonPlan.php.html#11"><abbr title="App\Models\LessonPlan::classes">classes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LessonPlan.php.html#15"><abbr title="App\Models\LessonPlan::course">course</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LessonPlan.php.html#19"><abbr title="App\Models\LessonPlan::semester">semester</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Promotion.php.html#15"><abbr title="App\Models\Promotion::classes">classes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Promotion.php.html#19"><abbr title="App\Models\Promotion::student">student</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Promotion.php.html#23"><abbr title="App\Models\Promotion::year">year</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reward.php.html#14"><abbr title="App\Models\Reward::student">student</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reward.php.html#18"><abbr title="App\Models\Reward::classes">classes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Reward.php.html#22"><abbr title="App\Models\Reward::semester">semester</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Student.php.html#29"><abbr title="App\Models\Student::batches">batches</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StudentAttendances.php.html#11"><abbr title="App\Models\StudentAttendances::student">student</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StudentAttendances.php.html#15"><abbr title="App\Models\StudentAttendances::course">course</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StudentAttendances.php.html#19"><abbr title="App\Models\StudentAttendances::classes">classes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StudentAttendances.php.html#23"><abbr title="App\Models\StudentAttendances::semester">semester</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StudentMarks.php.html#12"><abbr title="App\Models\StudentMarks::student">student</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StudentMarks.php.html#17"><abbr title="App\Models\StudentMarks::course">course</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Teacher.php.html#20"><abbr title="App\Models\Teacher::teacherLessons">teacherLessons</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TeacherComment.php.html#11"><abbr title="App\Models\TeacherComment::student">student</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TeacherComment.php.html#15"><abbr title="App\Models\TeacherComment::course">course</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User.php.html#50"><abbr title="App\Models\User::student">student</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.23</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.26</a> and <a href="https://phpunit.de/">PHPUnit 9.5.27</a> at Wed Feb 1 1:01:12 +07 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([15,0,0,0,0,0,0,0,0,0,0,10], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([36,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AbilityQuality.php.html#8\">App\\Models\\AbilityQuality<\/a>"],[0,3,"<a href=\"AssignTeacher.php.html#8\">App\\Models\\AssignTeacher<\/a>"],[100,0,"<a href=\"Batch.php.html#8\">App\\Models\\Batch<\/a>"],[0,1,"<a href=\"Classes.php.html#8\">App\\Models\\Classes<\/a>"],[100,0,"<a href=\"Classroom.php.html#8\">App\\Models\\Classroom<\/a>"],[0,3,"<a href=\"Conduct.php.html#8\">App\\Models\\Conduct<\/a>"],[100,0,"<a href=\"Course.php.html#8\">App\\Models\\Course<\/a>"],[100,0,"<a href=\"Day.php.html#8\">App\\Models\\Day<\/a>"],[0,7,"<a href=\"Lesson.php.html#8\">App\\Models\\Lesson<\/a>"],[0,1,"<a href=\"LessonDocument.php.html#8\">App\\Models\\LessonDocument<\/a>"],[100,0,"<a href=\"LessonNote.php.html#8\">App\\Models\\LessonNote<\/a>"],[0,3,"<a href=\"LessonPlan.php.html#8\">App\\Models\\LessonPlan<\/a>"],[0,3,"<a href=\"Promotion.php.html#8\">App\\Models\\Promotion<\/a>"],[0,3,"<a href=\"Reward.php.html#8\">App\\Models\\Reward<\/a>"],[100,0,"<a href=\"Semester.php.html#8\">App\\Models\\Semester<\/a>"],[0,1,"<a href=\"Student.php.html#9\">App\\Models\\Student<\/a>"],[0,4,"<a href=\"StudentAttendances.php.html#8\">App\\Models\\StudentAttendances<\/a>"],[0,2,"<a href=\"StudentMarks.php.html#8\">App\\Models\\StudentMarks<\/a>"],[0,1,"<a href=\"Teacher.php.html#8\">App\\Models\\Teacher<\/a>"],[0,2,"<a href=\"TeacherComment.php.html#8\">App\\Models\\TeacherComment<\/a>"],[100,0,"<a href=\"Time.php.html#8\">App\\Models\\Time<\/a>"],[0,1,"<a href=\"User.php.html#12\">App\\Models\\User<\/a>"],[100,0,"<a href=\"YearSession.php.html#8\">App\\Models\\YearSession<\/a>"],[100,0,"<a href=\"roleTypeUser.php.html#8\">App\\Models\\roleTypeUser<\/a>"],[100,0,"<a href=\"userType.php.html#8\">App\\Models\\userType<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AbilityQuality.php.html#21\">App\\Models\\AbilityQuality::year<\/a>"],[0,1,"<a href=\"AssignTeacher.php.html#12\">App\\Models\\AssignTeacher::class<\/a>"],[0,1,"<a href=\"AssignTeacher.php.html#16\">App\\Models\\AssignTeacher::teacher<\/a>"],[0,1,"<a href=\"AssignTeacher.php.html#20\">App\\Models\\AssignTeacher::year<\/a>"],[0,1,"<a href=\"Classes.php.html#16\">App\\Models\\Classes::classLessons<\/a>"],[0,1,"<a href=\"Conduct.php.html#11\">App\\Models\\Conduct::student<\/a>"],[0,1,"<a href=\"Conduct.php.html#15\">App\\Models\\Conduct::classes<\/a>"],[0,1,"<a href=\"Conduct.php.html#19\">App\\Models\\Conduct::semester<\/a>"],[0,1,"<a href=\"Lesson.php.html#20\">App\\Models\\Lesson::classes<\/a>"],[0,1,"<a href=\"Lesson.php.html#25\">App\\Models\\Lesson::teachers<\/a>"],[0,1,"<a href=\"Lesson.php.html#30\">App\\Models\\Lesson::course<\/a>"],[0,1,"<a href=\"Lesson.php.html#34\">App\\Models\\Lesson::room<\/a>"],[0,1,"<a href=\"Lesson.php.html#38\">App\\Models\\Lesson::day<\/a>"],[0,1,"<a href=\"Lesson.php.html#42\">App\\Models\\Lesson::time<\/a>"],[0,1,"<a href=\"Lesson.php.html#46\">App\\Models\\Lesson::semester<\/a>"],[0,1,"<a href=\"LessonDocument.php.html#11\">App\\Models\\LessonDocument::lesson<\/a>"],[0,1,"<a href=\"LessonPlan.php.html#11\">App\\Models\\LessonPlan::classes<\/a>"],[0,1,"<a href=\"LessonPlan.php.html#15\">App\\Models\\LessonPlan::course<\/a>"],[0,1,"<a href=\"LessonPlan.php.html#19\">App\\Models\\LessonPlan::semester<\/a>"],[0,1,"<a href=\"Promotion.php.html#15\">App\\Models\\Promotion::classes<\/a>"],[0,1,"<a href=\"Promotion.php.html#19\">App\\Models\\Promotion::student<\/a>"],[0,1,"<a href=\"Promotion.php.html#23\">App\\Models\\Promotion::year<\/a>"],[0,1,"<a href=\"Reward.php.html#14\">App\\Models\\Reward::student<\/a>"],[0,1,"<a href=\"Reward.php.html#18\">App\\Models\\Reward::classes<\/a>"],[0,1,"<a href=\"Reward.php.html#22\">App\\Models\\Reward::semester<\/a>"],[0,1,"<a href=\"Student.php.html#29\">App\\Models\\Student::batches<\/a>"],[0,1,"<a href=\"StudentAttendances.php.html#11\">App\\Models\\StudentAttendances::student<\/a>"],[0,1,"<a href=\"StudentAttendances.php.html#15\">App\\Models\\StudentAttendances::course<\/a>"],[0,1,"<a href=\"StudentAttendances.php.html#19\">App\\Models\\StudentAttendances::classes<\/a>"],[0,1,"<a href=\"StudentAttendances.php.html#23\">App\\Models\\StudentAttendances::semester<\/a>"],[0,1,"<a href=\"StudentMarks.php.html#12\">App\\Models\\StudentMarks::student<\/a>"],[0,1,"<a href=\"StudentMarks.php.html#17\">App\\Models\\StudentMarks::course<\/a>"],[0,1,"<a href=\"Teacher.php.html#20\">App\\Models\\Teacher::teacherLessons<\/a>"],[0,1,"<a href=\"TeacherComment.php.html#11\">App\\Models\\TeacherComment::student<\/a>"],[0,1,"<a href=\"TeacherComment.php.html#15\">App\\Models\\TeacherComment::course<\/a>"],[0,1,"<a href=\"User.php.html#50\">App\\Models\\User::student<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
